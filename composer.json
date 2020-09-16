@@ -1,0 +1,26 @@
+{
+    "name": "htcmage/m2-fix-admin-email-template",
+    "description": "Magento 2 fix admin email template could not show sale items block",
+    "version": "1.0.0",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "support@htcsoft.vn",
+            "name": "HTCMage",
+            "homepage": "https://www.htcmage.com",
+            "role": "Technical Support"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "HTCMage\\FixAdminEmailTemplate\\": ""
+        }
+    }
+}

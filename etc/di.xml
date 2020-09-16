@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Email\Model\Template">
+		<plugin disabled="false" name="HTCMage_FixAdminEmailTemplate_Plugin_Magento_Email_Model_Template" sortOrder="10" type="HTCMage\FixAdminEmailTemplate\Plugin\EmailTemplate"/>
+	</type>
+</config>
